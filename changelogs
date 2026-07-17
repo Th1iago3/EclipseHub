@@ -1,19 +1,10 @@
 TITLE=New Features & Bug Fixes
 DATA=2026-07-17
 - Added Weather SPEED slider under Weather dropdown (range 0-5) to control particle rate, speed and lifetime
-- Added Match Log entry for local player kills: shows "LocalName Killed VictimName with WeaponName" (local name in purple)
 - Added Kill Effect trigger when the killer ID matches the local player ID
-- Added real spectator resolution using LocalPlayer Spectators attribute
-- Added custom cursor rendering when any Eclipse GUI is open (detects protected UI via gethui)
-- Exposed _G.EclipseAS_SendKill so other modules can reuse the AutoSkill shoot packet path
-- Silent Aim now targets the closest head in full 360 range using 3D Euclidean distance
 
 TITLE=Bug Fixes & Performance
 DATA=2026-07-17
-- Fixed massive lag when holding a knife with AutoSkill or TriggerBot enabled (increased melee back-off interval to 0.6s)
-- Fixed Glass Effect being applied to dead players; it now only applies to alive players and is removed on death, reapplied on respawn
-- Fixed spectator list not updating when a player left the server
-- Fixed custom cursor not appearing when opening the GUI
-- Fixed Wallbang not firing on MB1 hold (feature later removed per request)
-- Fixed spectator panel showing per-line numbered rows; reverted to simple "SPECTATORS: N" header count
+- Fixed massive lag when holding a knife with AutoSkill or TriggerBot enabled
+- Fixed spectator panel
 - Removed Wallbang feature entirely to reduce overhead
