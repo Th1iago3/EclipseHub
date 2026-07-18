@@ -8,3 +8,11 @@ DATA=2026-07-17
 - Fixed massive lag when holding a knife with AutoSkill or TriggerBot enabled
 - Fixed spectator panel
 - Removed Wallbang feature entirely to reduce overhead
+
+TITLE=Mobile Fixes and New Features
+DATA=2026-07-18
+- Fixed mobile screen bugs
+- New WALLBANG (beta testing)
+- New FIRE RATE
+- New SNIPER CROSSHAIR
+- New Aimbot (better than before)
