@@ -1,16 +1,19 @@
 TITLE=New Features & Bug Fixes
 DATA=2026-07-17
+GAME=BS
 - Added Weather SPEED slider under Weather dropdown (range 0-5) to control particle rate, speed and lifetime
 - Added Kill Effect trigger when the killer ID matches the local player ID
 
 TITLE=Bug Fixes & Performance
 DATA=2026-07-17
+GAME=BS
 - Fixed massive lag when holding a knife with AutoSkill or TriggerBot enabled
 - Fixed spectator panel
 - Removed Wallbang feature entirely to reduce overhead
 
 TITLE=Mobile Fixes and New Features
 DATA=2026-07-18
+GAME=BS
 - Fixed mobile screen bugs
 - New WALLBANG (beta testing)
 - New FIRE RATE
