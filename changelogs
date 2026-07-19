@@ -22,6 +22,7 @@ GAME=BS
 
 TITLE=New Features & Bug Fixes
 DATA=2026-07-19
+GAME=DL
 - New AIMBOT more sticky and more precision
 - New ESP with smart team checking
 - New TRIGGER BOT with delay and hit chance adjustable
